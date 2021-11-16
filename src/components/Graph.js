@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react"
 import Chart from "chartjs"
 
-
 function Graph({ isLoading, priceData }) {
-
   const [chart, setChart] = useState(null)
 
   useEffect(() => {
